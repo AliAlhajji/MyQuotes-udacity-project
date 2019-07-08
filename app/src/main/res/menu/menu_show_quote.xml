@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.ali.myquotes.ui.ShowQuoteActivity">
+    <item
+        android:id="@+id/edit"
+        android:title="@string/edit"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_edit_black_24dp"
+        />
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_delete_white_24dp"
+        />
+
+    <item
+        android:id="@+id/add_to_widget"
+        android:title="@string/add_to_widget"
+        app:showAsAction="never"
+        />
+</menu>
